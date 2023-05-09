@@ -4,14 +4,36 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
-header .line {
-    background-color: #117050;
-    height: 10px;
-}
+
 .container {
     max-width: 1140px;
     margin: auto;
     
+}
+.bar {
+    background-color: #006341;
+    width: 168px;
+    height: 22px;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size:  6rem;
+    line-height: 100px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size:  35px;
+    line-height: 45px;
+    margin: 0;
+}
+
+header .line {
+    background-color: #117050;
+    height: 10px;
 }
 .header--area {
     display: flex;
@@ -65,14 +87,7 @@ header .line {
     padding-bottom: 90px;
     padding-left: 10px;
 }
-.banner h1 {
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    font-size:  6rem;
-    line-height: 100px;
-    margin: 0;
-    margin-bottom: 30px;
-}
+
 .banner--images {
     margin-top: 60px;
 }
@@ -89,7 +104,7 @@ header .line {
     grid-template-columns: repeat(2, 1fr)
 }
 .area1--content {
-    padding: 30px;
+    padding: 80px;
 }
 
 .area1--img1 {
