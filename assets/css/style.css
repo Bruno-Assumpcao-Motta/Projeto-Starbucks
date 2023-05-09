@@ -29,6 +29,7 @@ h2 {
     font-size:  35px;
     line-height: 45px;
     margin: 0;
+    margin: 20px 0 ;
 }
 
 header .line {
@@ -105,6 +106,9 @@ header .line {
 }
 .area1--content {
     padding: 80px;
+}
+.area1--quote {
+    margin-bottom: 30px;
 }
 
 .area1--img1 {
