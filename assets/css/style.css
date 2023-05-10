@@ -28,8 +28,19 @@ h2 {
     font-weight: bold;
     font-size:  35px;
     line-height: 45px;
-    margin: 0;
     margin: 20px 0 ;
+}
+.button {
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 15px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+}
+.button:hover {
+    color: white;
+    background-color: #454545;
 }
 
 header .line {
@@ -109,6 +120,9 @@ header .line {
 }
 .area1--quote {
     margin-bottom: 30px;
+}
+.area1--text {
+    margin-bottom: 50px;
 }
 
 .area1--img1 {
