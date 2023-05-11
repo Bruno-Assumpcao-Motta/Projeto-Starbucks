@@ -246,6 +246,9 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
+    .header--menu {
+        margin-left: 20px;
+    }
     .header--search input {
         max-width: 80px;
     }
@@ -253,6 +256,10 @@ footer {
     h1 {
         font-size: 50px;
         line-height: 50px;
+    }
+    h2 {
+        font-size: 22px;
+        line-height: 30px;
     }
     .banner--images img {
         width: 70px;
@@ -267,19 +274,21 @@ footer {
     .area4 {
         grid-template-columns: 1fr;
     }
+    .area1--img1 {
+        height: 200px;
+    } 
     .area1--content,
     .area2--content,
     .area3--content,
-    .area4--content
-     {
+    .area4--content {
         padding: 40px;
     }
     .area5 {
         height: 200px;
     }
     footer {
-        font-size: 16px;
-        padding: 20px;
+        font-size: 14px;
+        padding: 20px 40px;
     }
     
 
